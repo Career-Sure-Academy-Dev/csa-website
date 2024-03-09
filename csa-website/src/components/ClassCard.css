@@ -1,0 +1,32 @@
+.class-card {
+  max-width: 200px;
+  width: 100%;
+  background-color: #d6d6d6;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.class-title {
+  font-weight: bold;
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+}
+
+.class-desc {
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.join-btn {
+  font-size: 1rem;
+  width: 100%;
+  padding: 15px 0;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.join-btn:hover {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}

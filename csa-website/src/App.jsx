@@ -7,6 +7,7 @@ function App() {
   return (
     <>
       <NavBar />
+      <div></div>
       <div id="details">
         <Outlet />
       </div>
