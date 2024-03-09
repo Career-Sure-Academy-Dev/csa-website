@@ -1,10 +1,15 @@
+import { Outlet } from "react-router-dom";
+import NavBar from "./components/NavBar";
+
 import "./App.css";
-import LoginPage from "./components/LoginPage";
 
 function App() {
   return (
     <>
-      <LoginPage />
+      <NavBar />
+      <div id="details">
+        <Outlet />
+      </div>
     </>
   );
 }
