@@ -9,6 +9,7 @@ import QnA from "./components/QnA";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
+import TaskPage from "./components/TaskPage";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: "/tasks",
         element: <Tasks />,
+      },
+      {
+        path: "/tasks/:taskId",
+        element: <TaskPage />,
       },
       {
         path: "/qna",
