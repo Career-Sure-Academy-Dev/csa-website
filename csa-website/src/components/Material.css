@@ -1,0 +1,53 @@
+.material-container {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 30px;
+  gap: 50px;
+}
+
+.prev-rec-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #d6d6d6;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.prev-rec-btn {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 20px 30px;
+  border-radius: 3px;
+}
+
+.material-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.topic-item {
+  margin-bottom: 20px;
+}
+
+.topic-item h2 {
+  font-size: 24px;
+  font-weight: medium;
+  margin-bottom: 20px;
+}
+
+.notes-list {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.note-item {
+  text-decoration: none;
+  color: black;
+  background-color: #d6d6d6;
+  padding: 10px 20px;
+}

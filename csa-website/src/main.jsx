@@ -10,6 +10,7 @@ import QnA from "./components/QnA";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import TaskPage from "./components/TaskPage";
+import PreviousRecords from "./components/PreviousRecords";
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
         element: <QnA />,
       },
     ],
+  },
+  {
+    path: "/prevRecordings",
+    element: <PreviousRecords />,
   },
 ]);
 
