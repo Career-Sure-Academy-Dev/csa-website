@@ -2,6 +2,8 @@ import { NavLink, Link } from "react-router-dom";
 import { notes, topics } from "../utils/material";
 import "./Material.css";
 
+let CSA_CHANNEL_LINK = "https://www.youtube.com/@CareerSureAcademy";
+
 // eslint-disable-next-line react/prop-types
 const NoteItem = ({ name, fileName }) => {
   let filePathName = `/notes/${fileName}`;
@@ -33,7 +35,7 @@ const Material = () => {
     <div className="material-container">
       <div className="prev-rec-container">
         <p>What to access previous class records? </p>
-        <NavLink className="prev-rec-btn" to={`/prevRecordings`}>
+        <NavLink className="prev-rec-btn" to={CSA_CHANNEL_LINK} target="_blank">
           Previous Class Recordings
         </NavLink>
       </div>
